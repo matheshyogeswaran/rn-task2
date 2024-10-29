@@ -116,8 +116,8 @@ const AddItemScreen = () => {
                         />
                     </Textarea>
                 </Box>
-                <Heading className='pt-3 ml-4'>Cover Photos (Upload up to 5 photos)</Heading>
-                <Box style={styles.photoContainer} className='ml-4'>
+                <Heading className='pt-2 ml-2'>Cover Photos (Upload up to 5 photos)</Heading>
+                <Box style={styles.photoContainer} className='ml-3'>
                     {photos.map((uri, index) => (
                         <Image
                             key={index}

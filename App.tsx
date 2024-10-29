@@ -28,7 +28,7 @@ function App(): React.JSX.Element {
             <Stack.Screen name="Details" component={DetailsScreen}  />
             <Stack.Screen name="AdditionalDetails" component={AdditionalDetails} options={{ headerShown: true }} />
             <Stack.Screen name="Home" component={HomeScreen} />
-            <Stack.Screen name="Digital" component={DigitalProducts} />
+            <Stack.Screen name="Digital" component={DigitalProducts} /> 
           </Stack.Navigator>
         </NavigationContainer>
       </Provider>
